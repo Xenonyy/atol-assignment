@@ -107,7 +107,7 @@
 
 // Problem 4
 (function getSpecificPermutation(permutationIndex, arrayOfNumbers) {
-  for (let i = 0; i <= permutationIndex; i++) {
+  for (let i = 1; i < permutationIndex; i++) {
     let cyclePermutationIndex;
     let largestIndex;
 
